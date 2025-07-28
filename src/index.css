@@ -8,26 +8,36 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 20% 98%;
+    --foreground: 210 60% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 60% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 60% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 158 64% 52%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 158 64% 65%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 40% 94%;
+    --secondary-foreground: 210 60% 8%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 37 91% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Islamic-inspired gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(158 64% 52%), hsl(158 64% 65%));
+    --gradient-accent: linear-gradient(135deg, hsl(37 91% 55%), hsl(37 91% 70%));
+    --gradient-bg: linear-gradient(180deg, hsl(210 20% 98%), hsl(158 20% 96%));
+    
+    /* Elegant shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(158 64% 52% / 0.3);
+    --shadow-glow: 0 0 40px hsl(158 64% 65% / 0.4);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
